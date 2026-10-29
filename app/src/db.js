@@ -8,4 +8,5 @@ pool.on('error', (err) => {
   console.error('[db] unexpected pool error:', err);
 });
 
+// test
 module.exports = { pool };
